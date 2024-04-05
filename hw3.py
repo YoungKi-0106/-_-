@@ -12,7 +12,7 @@ Original file is located at
 
 def get_fixed_price(rate,price):
 
-  realprice=price/(1-rate/100)
+  realprice=int(price/(1-rate/100))
   return realprice
 
 rate=int(input('할인율은?'))
